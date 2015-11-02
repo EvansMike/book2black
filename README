@@ -1,1 +1,7 @@
-Changes all the text colour in an ebook to black on white. It annoys me when some e-books have grey text web2.0 style.  It's just wrong I don't care how trendy some hipster author feels about it.  Fuck 'em! 
+Changes all the text colour in an ebook to black on white. It annoys me when some e-books have grey text web2.0 style.  It's just wrong I don't care how trendy some hipster author feels about it.  Fuck 'em!
+
+If you're feeling brave run this in the root of your Calibre directory with:
+
+find. -name \*.epub -exec book2black.py {} \;
+
+After doing a backup of course.
